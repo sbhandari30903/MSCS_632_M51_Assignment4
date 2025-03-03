@@ -57,10 +57,11 @@ public class Schedules {
     /**
      * Collects employee details and shift preferences through user input
      * @param scanner Scanner object for input
+     * @param employee Employee object to store details
      */
     public static void getDetails(Scanner scanner) {
-        // Get employee name
         Employee employee = new Employee();
+        // Get employee name
         System.out.println("Enter your name:");
         String name = scanner.nextLine().toUpperCase();
         while (name.isEmpty()) {
