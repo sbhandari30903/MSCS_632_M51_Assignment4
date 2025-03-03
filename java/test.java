@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 public class test {
 
-    public static void loadRandomEmps(ArrayList<Employee> employees) {
+    public static void loadRandomEmps() {
         Employee employee = new Employee();
         employee.setName("Vaxo");   
         employee.setPreferredShift("Monday", "Morning");
@@ -12,7 +11,7 @@ public class test {
         employee.setPreferredShift("Saturday", "Evening");
         employee.setPreferredShift("Sunday", "Morning");
         employee.setDaysWorked(0);
-        employees.add(employee);
+        Schedules.addEmployToList(employee);
         Employee employee2 = new Employee();
         employee2.setName("Anish");
         employee2.setPreferredShift("Monday", "Morning");
@@ -23,7 +22,7 @@ public class test {
         employee2.setPreferredShift("Saturday", "Evening");
         employee2.setPreferredShift("Sunday", "Morning");
         employee2.setDaysWorked(0);
-        employees.add(employee2);
+        Schedules.addEmployToList(employee2);
         Employee employee3 = new Employee();
         employee3.setName("Darpan");
         employee3.setPreferredShift("Monday", "Morning");
@@ -34,7 +33,7 @@ public class test {
         employee3.setPreferredShift("Saturday", "Evening");
         employee3.setPreferredShift("Sunday", "Morning");
         employee3.setDaysWorked(0);
-        employees.add(employee3);
+        Schedules.addEmployToList(employee3);
 
         Employee employee4 = new Employee();
         employee4.setName("Unique");
@@ -46,7 +45,7 @@ public class test {
         employee4.setPreferredShift("Saturday", "Evening");
         employee4.setPreferredShift("Sunday", "Morning");
         employee4.setDaysWorked(0);
-        employees.add(employee4);
+        Schedules.addEmployToList(employee4);
         
         Employee employee5 = new Employee();
         employee5.setName("Sujan");
@@ -58,7 +57,7 @@ public class test {
         employee5.setPreferredShift("Saturday", "Evening");
         employee5.setPreferredShift("Sunday", "Morning");
         employee5.setDaysWorked(0);
-        employees.add(employee5);
+        Schedules.addEmployToList(employee5);
 
         Employee employee6 = new Employee();
         employee6.setName("Madan");
@@ -70,7 +69,7 @@ public class test {
         employee6.setPreferredShift("Saturday", "Evening");
         employee6.setPreferredShift("Sunday", "Morning");
         employee6.setDaysWorked(0);
-        employees.add(employee6);
+        Schedules.addEmployToList(employee6);
         
         Employee employee7 = new Employee();
         employee7.setName("Nicolas");
@@ -82,7 +81,7 @@ public class test {
         employee7.setPreferredShift("Saturday", "Evening");
         employee7.setPreferredShift("Sunday", "Morning");
         employee7.setDaysWorked(0);
-        employees.add(employee7);
+        Schedules.addEmployToList(employee7);
         
         Employee employee8 = new Employee();
         employee8.setName("Rajan");
@@ -94,7 +93,7 @@ public class test {
         employee8.setPreferredShift("Saturday", "Evening");
         employee8.setPreferredShift("Sunday", "Morning");
         employee8.setDaysWorked(0);
-        employees.add(employee8);
+        Schedules.addEmployToList(employee8);
 
         Employee employee9 = new Employee();
         employee9.setName("Pema");
@@ -106,7 +105,7 @@ public class test {
         employee9.setPreferredShift("Saturday", "Evening");
         employee9.setPreferredShift("Sunday", "Morning");
         employee9.setDaysWorked(0);
-        employees.add(employee9);
+        Schedules.addEmployToList(employee9);
 
     }
     
